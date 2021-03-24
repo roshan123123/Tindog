@@ -1,0 +1,206 @@
+#title
+{
+  background-color: #ff4c68;
+  color:white;
+  position: relative;
+
+}
+
+#features
+{  background-color: white;
+  position: relative;
+  z-index: 4;
+  padding-top: 1%;
+
+
+}
+.greet{
+  font-style: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+.container-fluid
+{
+  padding: 3% 15% 7%;
+}
+.fd
+{
+    padding: 3% 15%;
+}
+body
+{
+  font-style: "Montserrat";
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.navitem
+{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.navbar
+{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand
+{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.dbtn{
+  margin: 5% 3% 5% 0%;
+}
+
+
+.imgphone
+{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+#features
+{
+ padding: 4% 10%;
+
+}
+
+
+.box
+{
+padding:1%;
+text-align: center;;
+
+}
+.last
+{
+  padding-right: 0;
+}
+
+h2
+{
+  font-style:"Montserrat-bold";
+  font-size: 3rem;
+
+}
+h3
+{
+  font-style: "Montserrat-bold";
+}
+p
+{
+  padding-right: 13%;
+  color: grey;
+}
+.fc
+{
+  color:tomato;
+  margin-bottom: 1rem;
+}
+.fc:hover
+{
+  color:#ff4c68;
+}
+
+/*
+tstimonial */
+
+#testimonials
+{
+  padding:3% 10%;
+  text-align: center;
+  background-color:tomato;
+    color: white;
+
+}
+.dogimg
+{
+  border-radius: 50%;
+  width: 15%;
+
+}
+.dog{
+  padding-top:2%;
+}
+
+
+
+/* press */
+
+#press{
+  background-color: tomato;
+  text-align: center;
+
+  padding-bottom: 3%;
+}
+.imgp{
+  width: 12%;
+  margin: 0 1%;
+  padding-bottom: 6%;
+}
+/* pricingsection */
+#pricing
+{
+  padding: 1% 4%;
+  text-align: center;
+}
+.card
+{
+  text-align: center;
+  padding-left: 0 3%;
+}
+.seprate
+{
+  padding-top: 3%;
+}
+footer{
+  text-align: center;
+  padding: 5% 7%;
+
+  }
+  .cta{
+  text-align: center;
+  padding-top: 4%;
+  }
+  .lb
+  {
+      margin: 2% 2% 2% 0%;
+  }
+  @media(max-width:1200px){
+    .imgphone
+    {
+      transform: rotate(0deg);
+      position:static;
+    }
+    .fd{
+      text-align: center;
+    }
+
+
+  }
+
+  .cta{
+    background-color: #ff4c68;
+    padding:5% 0;
+  }
+  .social
+  {
+    padding: 1% 0.8%;
+  }
+  footer
+  {
+    text-align: center;
+  }
+  .fp
+  {
+  padding-left: 12%;
+  }
